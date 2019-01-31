@@ -2,6 +2,7 @@
 #include "base.cpp"
 #include "SevenOpMock.h"
 #include "FiveOpMock.h"
+#include "RandMock.h"
 
 #include "gtest/gtest.h"
 
@@ -13,7 +14,7 @@ TEST(OpTest, OpSevenMock){
 
 TEST(RandTest, RandMock){
    Op* num1 = new RandMock();
-   Op* num2 = new Op(000);
+   Op* num2 = new Op(6.9);
    EXPECT_EQ(num1,num2);
 }
 
