@@ -114,3 +114,12 @@ class Pow : public Base {
             return to_string(oneChild->evaluate()) + " * " + to_string(oneChild->evaluate());
         }
 };
+
+class SevenOpMock: public Base{
+   protected:
+     double num;
+   public:
+      SevenOpMock(): num(0){ };
+      double evaluate() { return 7.5;}
+      string stringify() {return "7.5";}
+};

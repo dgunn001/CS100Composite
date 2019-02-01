@@ -1,9 +1,7 @@
-#include "base.h"
-
 class FiveOpMock: public Base {
    public:
-      OpMock(){ };
+      FiveOpMock(){ };
 
       virtual double evaluate(){ return 5;}
       virtual string stringify(){ return "5";}
-}
+};
