@@ -1,7 +1,2 @@
-#include "SevenOpMock.h"
-#include "c-echo.h"
-#include <iostream>
+#include "lab.h"
 
-int main(int argv, char** argc) {
-    std::cout << echo(argv, argc);
-}
