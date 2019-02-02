@@ -121,5 +121,5 @@ class SevenOpMock: public Base{
    public:
       SevenOpMock(): num(0){ };
       double evaluate() { return 7.5;}
-      string stringify() {return "7.5";}
+      string stringify() {return "7.500000";}
 };

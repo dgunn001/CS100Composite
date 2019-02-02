@@ -4,5 +4,5 @@ class RandMock: public Base {
       RandMock() {};
       
       virtual double evaluate() {return 6.9;}
-      virtual string stringify() {return "6.9";}
+      virtual string stringify() {return "6.900000";}
 }; 
